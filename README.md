@@ -14,9 +14,9 @@ From other location e.g. laptop on the same wifi network: http://<ip-address_of_
 with ip address found by typing "hostname -I" in terminal on Raspberry PI. E.g. (http://192.168.2.146)
 
 # 2. INSTALL PHP
-
-`sudo apt-get install php -y`
-
+```
+sudo apt-get install php -y
+```
 # 3. CREATE PHP TEST SCRIPT
 
 `echo "<?php phpinfo(); ?>" | sudo tee /var/www/html/phpinfo.php`
