@@ -34,5 +34,5 @@ The result shoud a long web page showing the PHP version along with a lot of con
 # 5. INSTALL MARIADB DATABASE (replacement of MySQL Server for smooth installation on Raspbian Buster)
 `sudo apt-get install mariadb-server php-mysql -y`
 
-
-Download Bonjour Print Services for Windows v2.0.2 and run the installer.
+# 6. DOWNLOAD WORDPRESS (latest version @ (https://wordpress.org/)
+`wget https://wordpress.org/latest.tar.gz -O /tmp`
