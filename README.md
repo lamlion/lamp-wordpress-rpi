@@ -36,4 +36,5 @@ The result shoud a long web page showing the PHP version along with a lot of con
 
 # 6. DOWNLOAD AND UNZIP WORDPRESS (latest version @ (https://wordpress.org/)
 `wget https://wordpress.org/latest.tar.gz -O /tmp`
+
 `sudo tar zxvf /tmp/latest.tar.gz /var/www/html/`
