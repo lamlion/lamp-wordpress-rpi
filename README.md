@@ -25,7 +25,7 @@ with ip address found by typing "hostname -I" in terminal on Raspberry PI. E.g. 
 
 From Raspberry PI desktop in Chromium browser: 
 
-(http://localhost/phpinfo.php)
+http://localhost/phpinfo.php
 
 From other location e.g. laptop on the same wifi network: http://<ip-address_of_raspberrypi> (replace <..> 
 with ip address found by typing "hostname -I" in terminal on Raspberry PI. E.g. (http://192.168.2.146/phpinfo.php)
@@ -34,5 +34,6 @@ The result shoud a long web page showing the PHP version along with a lot of con
 # 5. INSTALL MARIADB DATABASE (replacement of MySQL Server for smooth installation on Raspbian Buster)
 `sudo apt-get install mariadb-server php-mysql -y`
 
-# 6. DOWNLOAD WORDPRESS (latest version @ (https://wordpress.org/)
+# 6. DOWNLOAD AND UNZIP WORDPRESS (latest version @ (https://wordpress.org/)
 `wget https://wordpress.org/latest.tar.gz -O /tmp`
+`sudo tar zxvf /tmp/latest.tar.gz /var/www/html/
