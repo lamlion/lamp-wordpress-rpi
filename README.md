@@ -1,5 +1,5 @@
 # lamp-wordpress-rpi
-LAMP Server with Wordpress on Raspberry PI
+LAMP Server with Wordpress on Raspberry PI (works with Raspbian Buster)
 
 ---
 # 1. INSTALL APACHE WEB SERVER
@@ -40,3 +40,5 @@ The result shoud a long web page showing the PHP version along with a lot of con
 `sudo tar zxvf /tmp/latest.tar.gz --directory /tmp/ && sudo mv /tmp/wordpress/* /var/www/html/`
 
 `sudo chown -R www-data: /var/www/html`
+
+`sudo rm /tmp/latest.tar.gz && echo "latest.tar.gz removed."` 
