@@ -31,7 +31,8 @@ From other location e.g. laptop on the same wifi network: http://<ip-address_of_
 with ip address found by typing "hostname -I" in terminal on Raspberry PI. E.g. (http://192.168.2.146/phpinfo.php)
 The result shoud a long web page showing the PHP version along with a lot of configuration details
 
-
+# 5. INSTALL MARIADB DATABASE (replacement of MySQL Server for smooth installation on Raspbian Buster)
+`sudo apt-get install mariadb-server php-mysql -y`
 
 
 Download Bonjour Print Services for Windows v2.0.2 and run the installer.
