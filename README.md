@@ -35,6 +35,6 @@ The result shoud a long web page showing the PHP version along with a lot of con
 `sudo apt-get install mariadb-server php-mysql -y`
 
 # 6. DOWNLOAD AND UNZIP WORDPRESS (latest version @ (https://wordpress.org/)
-`wget https://wordpress.org/latest.tar.gz -O /tmp`
+`wget https://wordpress.org/latest.tar.gz -O /tmp/latest.tar.gz`
 
-`sudo tar zxvf /tmp/latest.tar.gz /var/www/html/`
+`sudo tar zxvf /tmp/latest.tar.gz --directory /tmp/ && sudo mv /tmp/wordpress/* /var/www/html/`
