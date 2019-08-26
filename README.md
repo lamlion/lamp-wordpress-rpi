@@ -38,3 +38,5 @@ The result shoud a long web page showing the PHP version along with a lot of con
 `wget https://wordpress.org/latest.tar.gz -O /tmp/latest.tar.gz`
 
 `sudo tar zxvf /tmp/latest.tar.gz --directory /tmp/ && sudo mv /tmp/wordpress/* /var/www/html/`
+
+`sudo chown -R www-data: /var/www/html`
